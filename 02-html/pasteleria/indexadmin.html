@@ -5,122 +5,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica en Launch X</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Supercakes</title>
 </head>
 
 
 <body>
-    <div class="logo">
-        <img src="./img/logo.jpg" id="logo" alt="">
-        <style>
-            #logo {
-                width: 15%;
-            }
-        </style>
+
+
+
+
+
+
+
+    <div class="menu_principal">
+        <div class="logo">
+            <img src="./img/logo.jpg" id="logo" alt="">
+
+        </div>
+
+        <div class="menu_cabezal">
+            <a href="#Sabores" id="">
+                <p>Productos</p>
+            </a>
+            <a href="#Cotizaciones" id="">
+                <p>Cotizaciones</p>
+            </a>
+            <a href="#footer">
+                <p>Contacto</p>
+            </a>
+
+
+
+            <div class="minilogo">
+                <a href="./index.html">
+                    <p>Modo Cliente</p>
+                </a>
+
+
+            </div>
+        </div>
     </div>
 
-    <h1>Almacen en pasteleria</h1>
+
+    <main>
+
+        <h2>Próximos pedidos</h2>
+
+        <div class="container_pedidos">
+
+            <table>
+                <tr>
+                    <td>nombre</td>
+                    <td>Telefono</td>
+                    <td>Correo</td>
+                    <td>Detalles extras</td>
+                    <td>Sabores</td>
+                    <td>Cubiertas</td>
+                </tr>
+
+                <tr>
+                    <td>Oscar Vega</td>
+                    <td>3331058786</td>
+                    <td>oscar@launchx.com</td>
+                    <td>Usar 1/4 de menos azucar de la normal</td>
+                    <td>Chocolate</td>
+                    <td>Diseño con manga tradicional</td>
+                </tr>
+
+                <tr>
+                    <td>Jorge Toscano</td>
+                    <td>3331058776</td>
+                    <td>jorge01@launchx.com</td>
+                    <td>El pastel se prefiere más humedo de lo normal</td>
+                    <td>Vainilla</td>
+                    <td>Frutas: fresas y zarzamoras</td>
+                </tr>
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <tr>
+                    <td>Alfonso Hope</td>
+                    <td>3357891065</td>
+                    <td>Alfonso_hope@tecnm.com</td>
+                    <td>Sin comentarios</td>
+                    <td>Galleta y choolate</td>
+                    <td>Fondant temático de un maestro</td>
+                </tr>
 
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
 
-    <div class="sabores">
-        <h3>Sabores</h3>
-        <ul>
-            <li>Chocolate 35kg</li>
-            <li>Vainilla 45kg</li>
-            <li>Galleta 45kg</li>
-            <li>Fresa 60kg</li>
-        </ul>
-        <p>La masa se pesa en crudo</p>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
 
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
 
-    </div>
+        </div>
 
+    </main>
+    <footer id="footer">
+        <div class="info">
 
-    <div class="adornos">
-        <h3>Adornos</h3>
-        <ul>
-            <li>Topper Chocolate con diseño</li>
-            <li>Chispas de chocolate</li>
-            <li>Lluvia de galleta</li>
+            <p>Calle colima n 25 <br> 3331057894 <br> Guadalajara Jalisco, Mexico</p>
+        </div>
 
-        </ul>
-        <p>La masa se pesa en crudo</p>
-
-
-    </div>
-
-    <form action="">
-        <h3>Realice una cotización al momento</h3>
-
-
-        <label for="name">Nombre:</label>
-        <br>
-        <input type="text" id="name" name="user_name">
-
-
-        <br>
-        <label for="mail">Correo electrónico:</label>
-        <br>
-        <input type="email" id="mail" name="user_mail">
-
-        <br>
-        <label for="telefono">Telefono:</label>
-        <br>
-        <input type="tel" id="telefono" name="user_phone">
-        <br>
-        <label for="msg">Descripcion general del pastel</label>
-        <br>
-        <textarea id="msg" name="user_message"></textarea>
-
-
-
-        <br>
-        <label for="masas">Kg de pastel:</label>
-
-        <br>
-        <input list="masas">
-
-        <datalist id="masas">
-  <option value="Chocolate">
-  <option value="Vainilla">
-  <option value="Galleta">
-  <option value="Fresa">
-  
-</datalist>
-        <br>
-
-        <label for="masas">Adornos:</label>
-
-        <br>
-        <input list="adornos">
-
-        <datalist id="adornos">
-  <option value="Topper Chocolate con diseño">
-  <option value="Chispas de chocolate">
-  <option value="Lluvia de galleta">
-  
-    
-  
-</datalist>
-
-
-
-
-
-    </form>
-
-    <br>
-    <img src="https://st2.depositphotos.com/1009864/5937/i/950/depositphotos_59378839-stock-photo-different-pieces-of-cake-on.jpg" alt="carro">
+    </footer>
 </body>
 
 
-<footer>
 
-    <p>Calle colima n 25 <br> 3331057894 <br> Guadalajara Jalisco, Mexico</p>
-
-</footer>
 
 </html>
